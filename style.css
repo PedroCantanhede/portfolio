@@ -49,17 +49,6 @@
     visibility: hidden;
   }
   .show-menu #line3 {
-    transform: rotate(-45deg) translate(0.4rem, -0.22rem);
-  }
-
-.show-menu #line1 {
-    transform: rotate(45deg) translate(0.4rem, 0.22rem);
-  }
-  .show-menu #line2 {
-    opacity: 0;
-    visibility: hidden;
-  }
-  .show-menu #line3 {
     transform: rotate(-45deg) translate(0.3rem, -0.45rem);
   }
 
@@ -182,6 +171,8 @@ header {
     }
 }
 
+/* Menu */
+
 .sidebar {
     width: 20rem;
     height: 100vh;
@@ -245,6 +236,67 @@ header {
     background-color: #f80759;
 }
 
+/* Sobre */
+
+.sessao-sobre{
+    overflow: hidden;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 60px;
+}
+
+.sobre-img{
+    margin-bottom: 70px;
+}
+
+.sobre-img a {
+    display: inline-block;
+    margin: 0 50px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.sobre-img a img {
+    width: 100%;
+    filter: grayscale(95%);
+    transition: 0.4s all;
+}
+
+.sobre-img a:hover > img{
+    filter: none;
+}
+
+.nome-sobre{
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.sobre-text p{
+    width: 600px;
+    margin: auto;
+    font-family: var(--font-secundary);
+    font-size: 1.3rem;
+    color: #555;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.sobre-icons i{
+    margin-top: 2%;
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 75px;
+    transition: color 0.7s;
+}
+
+.sobre-icons i:hover{
+    color: #f80759;
+}
+
 /* Conhecimentos */
 
 .conhecimentos{
@@ -280,7 +332,7 @@ header {
 }
 
 .sessao-conhecimentos{
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 .sessao-header{
@@ -294,7 +346,7 @@ header {
     font-size: 3rem;
     color: #555;
     border-bottom: solid 3px #f80759;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .conhecimento-header{
@@ -331,6 +383,10 @@ header {
     object-fit: cover;
     width: 80%;
 }
+
+
+
+
 
 
 
