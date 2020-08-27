@@ -240,7 +240,7 @@ header {
     overflow: hidden;
     text-align: center;
     background-color: #f5f5f5;
-    padding: 60px;
+    padding: 45px;
 }
 
 .sobre-img {
@@ -331,7 +331,7 @@ header {
 
 .sessao-conhecimentos {
     background-color: white;
-    margin-top: 5%;
+    margin-top: 2.5%;
 }
 
 .sessao-header {
@@ -386,7 +386,7 @@ header {
 /* Projetos */
 
 .sessao-projetos {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .projetos {
@@ -475,6 +475,84 @@ header {
     opacity: 1;
     visibility: visible;
   }
+
+ /* Contato */
+
+ .sessao-contato {
+     margin-top: 10%;
+     background: url(imagens/bg-form4.png) no-repeat center;
+     background-size: cover;
+     padding: 40px 0;
+ }
+
+ .sessao-contato h1 {
+     font-family: var(--font-primary);
+     text-align: center;
+     color: #f5f5f5;
+ }
+
+ .contact-form {
+     max-width: 600px;
+     margin: auto;
+     padding: 0 10px;
+     overflow: hidden;
+ }
+
+ .contact-form-text {
+     display: block;
+     width: 100%;
+     box-sizing: border-box;
+     margin: 16px 0;
+     border: 0;
+     background: #111;
+     padding: 20px 40px;
+     outline: none;
+     color: #f5f5f5;
+     transition: 0.5s;
+     font-family: var(--font-action);
+     font-size: 15px;
+ }
+
+ .contact-form-text:hover {
+     box-shadow: 0 0 3px 0.8px #f80759;
+ }
+
+ .textarea.contact-form-text {
+     resize: none;
+     height: 120px;
+ }
+
+ .contact-form-btn {
+     float: right;
+     border: 0;
+     background: #bc4e9c;  
+     background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  
+     background: linear-gradient(to right, #f80759, #bc4e9c);
+     color: #f5f5f5;
+     padding: 12px 50px;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: 0.5s;
+     font-family: var(--font-action);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
